@@ -64,3 +64,280 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+#container{
+	width: 65%;
+	margin: 0 auto;
+	padding: 0 25px 0 0;
+	border-left: 1px solid lightgray;
+	border-right: 1px solid lightgray;
+}
+
+header{
+	padding: 50px 0 25px 0;
+	display: flex;
+}
+
+header nav{
+	margin: 10px 50px 0 0;
+	padding: 0 0 0 50px;
+}
+
+header nav .navLinks{
+	color: lightgray;
+	text-decoration: none;
+	margin: 0 25px 0 0;
+	padding: 10px 20px;	
+}
+
+/* /////////////////////////////////////////////////// */
+
+section#callToAction{
+	display: flex;
+	width: 90%;
+	margin: 0 0 0 10%;
+	padding: 50px 0 50px 25px;
+	border-bottom: 1px solid black;
+}
+
+section#callToAction div{
+	margin: 0 150px 0 0px;
+	height: 200px;
+	width: 360px;
+	text-align: center;
+}
+
+section#callToAction div h1{
+	font-size: 600%;
+	text-align: center;
+}
+
+section#callToAction div a{
+	padding: 10px 25px;
+	border: solid black 1px;
+	text-decoration: none;
+	color: black;
+}
+
+#callToAction #image2{
+	width: 380px;
+	height: 380px;
+	margin: 0 0 0 0;
+}
+	/* //////////////////////////////////////////////////////// */
+
+main{
+	padding: 50px 0 50px 0;
+	width: 90%;
+	margin: 0 0 50px 10%;
+	border-bottom: 1px solid black;
+}
+
+.first-row{
+	display: flex;
+	height: 100px;
+	width: 100%;	
+	margin: 0 0 50px 0;
+}
+
+.first-row-content{
+	width: 49%;
+	padding: 10px;
+}
+
+main .middle-img-div{
+	margin: 0 0 50px 0;
+	width: 100%;
+	display: flex;	
+
+}
+
+/* ////////// */
+
+.third-row{
+	display: flex;
+	height: 100px;
+	width: 100%;	
+	margin: 0 0 50px 0;
+}
+
+.third-row-content{
+	width: 32.5%;
+	padding: 10px;
+}
+
+/* ////////////////////////////// */
+
+footer{
+	padding: 0 0 0 10%;
+}
+
+footer section{
+	padding: 0 0 50px 0;
+	display: flex;
+	width: 100%;
+}
+
+footer p{
+	margin: 20px 0;
+}
+
+footer div.contact{
+	padding: 0 0 25px 0;
+}
+
+footer .copy{
+	margin: 0 auto 50px auto;
+	width: 100%;
+	text-align: center;
+}
+
+/* ####################### services page ################################## */
+/* ####################################################################### */
+
+.section-one{
+	display: flex;
+	flex-direction: column;
+	width: 93%;
+	margin: 0 0 50px 70px;
+	border-bottom: 1px solid #999;
+}
+
+.header-image-div{
+	margin: 0 0 50px 0;
+}
+
+.services{
+	margin: 0 0 50px 0;
+}
+
+/* ///////////////////////////// */
+
+.gridDisplay{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 0 0 0 7%;
+	padding: 0 0 25px 0;
+	width: 93%;
+	border-bottom: 1px solid #999;
+}
+
+.part{
+	width: 48%;
+	background-color: #f9f9f9;
+	margin: 0 0 25px 0;
+	padding: 10px;
+	border: 1px solid #999;
+}
+
+.part p{
+	margin: 0 0 25px 0;
+}
+/* /////////////////// */
+
+.lastSection{
+	display: flex;
+	padding: 50px 0;
+	margin: 0 0 0 7%;
+}
+
+.lastMain p{
+	margin: 0 0 15px 0;
+}
+
+.lastMain ul{
+	margin: 0 0 0 20px;
+}
+
+.lastMain ul li{
+	list-style-type: square;
+}
+
+footer.copy{
+	margin: 0 0 25px 30px;
+	width: 96%;
+	text-align: center;
+}
+
+/* ########################## products ########################## */
+/* ############################################################# */
+
+.products-section-one{
+	display: flex;
+	padding: 50px 0 50px 6%;
+	margin: 0 0 0 50px;
+	width: 95%;
+	border-bottom: 1px solid #999;
+}
+
+.products-section-one-image-div{
+ margin: 0 50px 0 0;
+}
+
+.productInfo{
+	width: 45%;
+}
+
+/* ///////////////// */
+
+.productSections{
+	display: flex;
+	flex-direction: column;
+	padding: 50px 0 50px 0%;
+	margin: 0 0 0 50px;
+	width:95%;
+}
+
+.sec2Part1{
+	display: flex;
+	padding: 0 0 50px 0;
+	border-bottom: 1px solid #999;
+}
+
+.sec2Part1 .text{
+	width: 45%;
+	margin: 0 20% 0 0;
+}
+
+.sec2Part1 .image{
+	width: 45%;
+}
+/* ////////////// */
+
+.sec2Part2{
+	display: flex;
+	flex-direction: row-reverse;
+	padding: 50px 0 50px 0;
+	border-bottom: 1px solid #999;
+}
+
+.sec2Part2 .text{
+	width: 45%;
+	margin: 0 150px 0 0;
+}
+
+.sec2Part2 .image{
+	width: 45%;
+}
+
+/* ///////////// */
+.sec2Part3{
+	display: flex;
+	padding: 100px 0 100px 0;
+	border-bottom: 1px solid #999;
+}
+
+.sec2Part3 .text{
+	width: 45%;
+	margin: 0 20% 0 0;
+}
+
+.sec2Part3 .image{
+	width: 45%;
+}
+
+.sec2Part3 .image img{
+	width: 75%;
+}
+
